@@ -1,0 +1,65 @@
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef; /* Light background color */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    color: #343a40; /* Dark text color */
+    text-align: center;
+    position: relative; /* Allow absolute positioning of logo */
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute; /* Position logo absolutely */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    width: 100px; /* Fixed logo size */
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 2.5rem; /* Font size */
+    color: #0d1012; /* Darker heading color */
+    margin: 20px 0; /* Space above and below the heading */
+}
+
+/* Subheading Styling */
+h3 {
+    font-size: 2rem;
+    color: #495057; /* Font size for subheading */
+    margin: 20px 0; /* Space above and below the subheading */
+}
+
+/* Table Styling */
+table {
+    width: 80%; /* Set table width */
+    margin-top: 20px; /* Space above the table */
+    border-collapse: collapse; /* Merge table borders */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #ffffff; /* White background for table */
+}
+
+th, td {
+    padding: 15px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Bottom border for rows */
+}
+
+th {
+    background-color: #495057; /* Darker background for header */
+    color: white; /* White text color for header */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* List Styling in Table Cells */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}

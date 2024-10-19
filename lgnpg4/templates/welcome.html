@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <!-- Use url_for to link to the static CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome.css') }}">
+</head>
+<body>
+    <h2>Welcome to IIT Indore</h2>
+
+    <!-- Use url_for to link to the IIT Indore logo image -->
+    <img src="{{ url_for('static', filename='Indian_Institute_of_Technology,_Indore_Logo.png') }}" alt="IIT Indore Logo">
+</body>
+</html>

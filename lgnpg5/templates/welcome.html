@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome.css') }}">
+</head>
+<body>
+    <img class="logo" src="{{ url_for('static', filename='Indian_Institute_of_Technology,_Indore_Logo.png') }}" alt="IIT Indore Logo">
+    <h2>Welcome to IIT Indore</h2>
+    
+    <h3>Courses Available at IIT Indore</h3>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Program Level</th>
+                <th>Available Courses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Undergraduate Programs -->
+            <tr>
+                <td>Undergraduate Programs (B.Tech)</td>
+                <td>
+                    <ul>
+                        <li>Computer Science and Engineering (CSE)</li>
+                        <li>Electrical Engineering (EE)</li>
+                        <li>Mechanical Engineering (ME)</li>
+                        <li>Civil Engineering (CE)</li>
+                        <li>Metallurgical Engineering and Materials Science (MEMS)</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Postgraduate Programs -->
+            <tr>
+                <td>Postgraduate Programs (M.Tech)</td>
+                <td>
+                    <ul>
+                        <li>Communication and Signal Processing</li>
+                        <li>VLSI Design and Nanoelectronics</li>
+                        <li>Mechanical Systems Design</li>
+                        <li>Production and Industrial Engineering</li>
+                        <li>Material Science and Engineering</li>
+                        <li>Computer Science and Engineering</li>
+                        <li>Electric Vehicle Technology</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Doctoral Programs -->
+            <tr>
+                <td>Doctoral Programs (PhD)</td>
+                <td>
+                    <ul>
+                        <li>Computer Science and Engineering</li>
+                        <li>Electrical Engineering</li>
+                        <li>Mechanical Engineering</li>
+                        <li>Civil Engineering</li>
+                        <li>Physics</li>
+                        <li>Chemistry</li>
+                        <li>Mathematics</li>
+                        <li>Material Science and Engineering</li>
+                        <li>Humanities and Social Sciences</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

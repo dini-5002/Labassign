@@ -1,0 +1,48 @@
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8; /* Same background color as the other pages */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh;
+    color: #2c3e50; /* Darker text color for better contrast */
+    text-align: center;
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 2.5rem; /* Adjusted font size */
+    color: #34495e;
+    margin-bottom: 20px; /* Space between heading and logo */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Logo Styling */
+img {
+    max-width: 150px; /* Restrict the size of the logo */
+    height: auto;
+    margin-top: 10px; /* Space above the logo */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for logo */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Consistent Box Shadow Effect */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: -1;
+}
